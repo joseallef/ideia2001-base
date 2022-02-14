@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --page-write: #ffffff;
+  --section-orange: #f08910;
+  --background-content: #f1f1f1;
+}

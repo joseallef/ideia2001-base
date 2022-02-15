@@ -122,7 +122,7 @@ main {
   background-color: var(--page-write);
   display: block;
   width: 1000px;
-  height: 600px;
+  height: 700px;
   z-index: 10;
   margin-top: -60px;
 }
@@ -160,11 +160,18 @@ main {
   width: 200px;
   height: 150px;
   margin: 10px;
-  background-image: linear-gradient(#fcfcfc, var(--background-content));
+  background-image: linear-gradient(#ffffff, #e4e4e4);
   border-radius: 30px;
   flex-wrap: wrap;
+  transition: 0.5s;
 
-  box-shadow: 2px 1px 1px var(--background-content);
+  box-shadow: 0px 0px 2px #d4d3d3;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 2px #b6b4b4;
+  cursor: pointer;
+  margin-top: -10px;
 }
 
 .card span {
